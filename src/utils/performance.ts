@@ -93,7 +93,7 @@ export const getPageLoadMetrics = () => {
     response: navigation.responseEnd - navigation.responseStart,
     dom: navigation.domContentLoadedEventEnd - navigation.domContentLoadedEventStart,
     load: navigation.loadEventEnd - navigation.loadEventStart,
-    total: navigation.loadEventEnd - navigation.navigationStart
+    total: navigation.loadEventEnd - navigation.fetchStart
   };
 };
 

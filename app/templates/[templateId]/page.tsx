@@ -5,9 +5,9 @@ import { TEMPLATE_CATEGORIES } from '../../../src/types/resignation';
 import ResignationLetterPage from '../../../src/pages/ResignationLetterPage';
 
 interface TemplatePageProps {
-  params: {
+  params: Promise<{
     templateId: string;
-  };
+  }>;
 }
 
 export async function generateStaticParams() {
@@ -17,7 +17,8 @@ export async function generateStaticParams() {
 }
 
 export async function generateMetadata({ params }: TemplatePageProps): Promise<Metadata> {
-  const template = getTemplateById(params.templateId);
+  const { templateId } = await params;
+  const template = getTemplateById(templateId);
   
   if (!template) {
     return {
@@ -35,17 +36,18 @@ export async function generateMetadata({ params }: TemplatePageProps): Promise<M
     openGraph: {
       title: `${template.name} - Free Template`,
       description: template.description,
-      url: `https://resignationletter.net/templates/${params.templateId}`,
+      url: `https://resignationletter.net/templates/${templateId}`,
       type: 'article',
     },
     alternates: {
-      canonical: `https://resignationletter.net/templates/${params.templateId}`,
+      canonical: `https://resignationletter.net/templates/${templateId}`,
     },
   };
 }
 
-export default function TemplatePage({ params }: TemplatePageProps) {
-  const template = getTemplateById(params.templateId);
+export default async function TemplatePage({ params }: TemplatePageProps) {
+  const { templateId } = await params;
+  const template = getTemplateById(templateId);
   
   if (!template) {
     notFound();

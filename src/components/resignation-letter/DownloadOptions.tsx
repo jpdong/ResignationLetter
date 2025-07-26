@@ -136,19 +136,19 @@ const DownloadOptions: React.FC<DownloadOptionsProps> = ({
     <div style={{ padding: '60px 0', background: '#fff' }} id="download">
       <Container>
         <div style={{ textAlign: 'center', marginBottom: '40px' }}>
-          <h2 style={{ 
-            fontSize: '32px', 
-            fontWeight: '700', 
-            color: '#1f2937', 
-            marginBottom: '16px' 
+          <h2 style={{
+            fontSize: '32px',
+            fontWeight: '700',
+            color: '#1f2937',
+            marginBottom: '16px'
           }}>
             Download Your Resignation Letter
           </h2>
-          <p style={{ 
-            fontSize: '18px', 
-            color: '#6b7280', 
-            maxWidth: '600px', 
-            margin: '0 auto' 
+          <p style={{
+            fontSize: '18px',
+            color: '#6b7280',
+            maxWidth: '600px',
+            margin: '0 auto'
           }}>
             Choose your preferred format to download or copy your professional resignation letter.
           </p>
@@ -203,24 +203,24 @@ const DownloadOptions: React.FC<DownloadOptionsProps> = ({
                 }}
               >
                 <div>
-                  <div style={{ 
-                    fontSize: '48px', 
+                  <div style={{
+                    fontSize: '48px',
                     marginBottom: '16px',
                     filter: option.disabled ? 'grayscale(100%)' : 'none'
                   }}>
                     {option.icon}
                   </div>
-                  <h3 style={{ 
+                  <h3 style={{
                     color: option.disabled ? '#9ca3af' : '#1f2937',
-                    fontSize: '18px', 
-                    fontWeight: '600', 
-                    marginBottom: '8px' 
+                    fontSize: '18px',
+                    fontWeight: '600',
+                    marginBottom: '8px'
                   }}>
                     {option.title}
                   </h3>
-                  <p style={{ 
+                  <p style={{
                     color: option.disabled ? '#9ca3af' : '#6b7280',
-                    fontSize: '14px', 
+                    fontSize: '14px',
                     lineHeight: '1.5',
                     margin: '0 0 20px 0'
                   }}>
@@ -256,10 +256,10 @@ const DownloadOptions: React.FC<DownloadOptionsProps> = ({
                 >
                   {isDownloading === option.format ? (
                     <span style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px' }}>
-                      <span style={{ 
-                        width: '16px', 
-                        height: '16px', 
-                        border: '2px solid #fff', 
+                      <span style={{
+                        width: '16px',
+                        height: '16px',
+                        border: '2px solid #fff',
                         borderTop: '2px solid transparent',
                         borderRadius: '50%',
                         animation: 'spin 1s linear infinite'
@@ -276,8 +276,8 @@ const DownloadOptions: React.FC<DownloadOptionsProps> = ({
         </Row>
 
         {/* Help Text */}
-        <div style={{ 
-          marginTop: '40px', 
+        <div style={{
+          marginTop: '40px',
           textAlign: 'center',
           padding: '20px',
           background: '#f0f9ff',
@@ -286,22 +286,21 @@ const DownloadOptions: React.FC<DownloadOptionsProps> = ({
           maxWidth: '800px',
           margin: '40px auto 0'
         }}>
-          <h4 style={{ 
-            color: '#0c4a6e', 
-            fontSize: '16px', 
-            fontWeight: '600', 
-            marginBottom: '8px' 
+          <h4 style={{
+            color: '#0c4a6e',
+            fontSize: '16px',
+            fontWeight: '600',
+            marginBottom: '8px'
           }}>
             💡 Download Tips
           </h4>
-          <ul style={{ 
-            color: '#075985', 
-            fontSize: '14px', 
+          <ul style={{
+            color: '#075985',
+            fontSize: '14px',
             textAlign: 'left',
-            margin: 0, 
+            margin: 0,
             paddingLeft: '20px',
             maxWidth: '600px',
-            margin: '0 auto'
           }}>
             <li>PDF format is recommended for official submissions</li>
             <li>Word format allows for easy editing and customization</li>
@@ -311,8 +310,8 @@ const DownloadOptions: React.FC<DownloadOptionsProps> = ({
         </div>
 
         {/* Privacy Notice */}
-        <div style={{ 
-          marginTop: '30px', 
+        <div style={{
+          marginTop: '30px',
           textAlign: 'center',
           fontSize: '12px',
           color: '#6b7280'

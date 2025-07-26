@@ -113,7 +113,6 @@ const LetterCustomizer: React.FC<LetterCustomizerProps> = ({
                 type="text"
                 value={letterData.employeeName}
                 onChange={(e) => handleInputChange('employeeName', e.target.value)}
-                onBlur={() => handleBlur('employeeName')}
                 placeholder="Enter your full name"
                 style={inputStyle(!!getFieldError('employeeName'))}
                 onFocus={(e) => {
@@ -142,7 +141,6 @@ const LetterCustomizer: React.FC<LetterCustomizerProps> = ({
                 type="text"
                 value={letterData.employeePosition}
                 onChange={(e) => handleInputChange('employeePosition', e.target.value)}
-                onBlur={() => handleBlur('employeePosition')}
                 placeholder="e.g., Software Engineer"
                 style={inputStyle(!!getFieldError('employeePosition'))}
                 onFocus={(e) => {
@@ -171,7 +169,6 @@ const LetterCustomizer: React.FC<LetterCustomizerProps> = ({
                 type="text"
                 value={letterData.companyName}
                 onChange={(e) => handleInputChange('companyName', e.target.value)}
-                onBlur={() => handleBlur('companyName')}
                 placeholder="Enter company name"
                 style={inputStyle(!!getFieldError('companyName'))}
                 onFocus={(e) => {
@@ -200,7 +197,6 @@ const LetterCustomizer: React.FC<LetterCustomizerProps> = ({
                 type="text"
                 value={letterData.supervisorName}
                 onChange={(e) => handleInputChange('supervisorName', e.target.value)}
-                onBlur={() => handleBlur('supervisorName')}
                 placeholder="Enter supervisor's name"
                 style={inputStyle(!!getFieldError('supervisorName'))}
                 onFocus={(e) => {
@@ -246,7 +242,6 @@ const LetterCustomizer: React.FC<LetterCustomizerProps> = ({
                 type="date"
                 value={letterData.lastWorkingDate}
                 onChange={(e) => handleInputChange('lastWorkingDate', e.target.value)}
-                onBlur={() => handleBlur('lastWorkingDate')}
                 min={getMinDate()}
                 style={inputStyle(!!getFieldError('lastWorkingDate'))}
                 onFocus={(e) => {
