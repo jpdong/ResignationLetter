@@ -69,7 +69,7 @@ const PrivacyPolicyPage: React.FC = () => {
             If you have any questions about this Privacy Policy or our Random Letter Generator service, please contact us.
           </p>
           <p>
-            contact@randomlettergenerator.com
+            dongshan1025@gmail.com
           </p>
         </div>
       </Container>

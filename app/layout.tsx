@@ -6,19 +6,18 @@ import GoogleAnalytics from '../src/components/analytics/GoogleAnalytics'
 import CookieConsent from '../src/components/analytics/CookieConsent'
 
 export const metadata: Metadata = {
-  title: 'Free Resignation Letter Generator - Professional Templates & Examples',
+  title: 'Resignation Letter Generator - Professional Templates & Examples',
   description: 'Create professional resignation letters instantly with our free generator. Choose from 6+ templates, customize with your details, and download as PDF, Word, or text. No signup required.',
-  keywords: 'resignation letter, resignation letter template, how to write resignation letter, professional resignation letter, resignation letter generator, free resignation letter, resignation letter examples',
   icons: {
     icon: '/logo.png',
   },
   
   alternates: {
-      canonical: `https://resignationletter.net/`,
+      canonical: `https://resignation-letter.net/`,
     },
   
   openGraph: {
-    title: 'Free Resignation Letter Generator - Professional Templates',
+    title: 'Resignation Letter Generator - Professional Templates',
     description: 'Create professional resignation letters instantly with our free generator. Choose from multiple templates and download in various formats.',
     url: 'https://resignationletter.net/',
     siteName: 'Resignation Letter Generator',
@@ -36,7 +35,7 @@ export const metadata: Metadata = {
   
   twitter: {
     card: 'summary_large_image',
-    title: 'Free Resignation Letter Generator - Professional Templates',
+    title: 'Resignation Letter Generator - Professional Templates',
     description: 'Create professional resignation letters instantly with our free generator. Choose from multiple templates and download in various formats.',
     images: ['/og-image.png'],
     creator: '@resignationgen',
