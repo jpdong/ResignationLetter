@@ -1,8 +1,8 @@
 import { MetadataRoute } from 'next';
-import { resignationTemplates } from '../src/utils/letterTemplates';
+import { resignationTemplates } from '../utils/letterTemplates';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://resignationletter.net';
+  const baseUrl = 'https://resignation-letter.net';
   
   // Static pages
   const staticPages = [
@@ -22,5 +22,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  return [...staticPages, ...templatePages];
+  return [...staticPages];
 }

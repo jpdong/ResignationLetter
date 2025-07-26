@@ -36,11 +36,11 @@ export async function generateMetadata({ params }: TemplatePageProps): Promise<M
     openGraph: {
       title: `${template.name} - Free Template`,
       description: template.description,
-      url: `https://resignationletter.net/templates/${templateId}`,
+      url: `https://resignation-letter.net/templates/${templateId}`,
       type: 'article',
     },
     alternates: {
-      canonical: `https://resignationletter.net/templates/${templateId}`,
+      canonical: `https://resignation-letter.net/templates/${templateId}`,
     },
   };
 }
