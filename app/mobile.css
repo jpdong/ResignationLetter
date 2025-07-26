@@ -1,0 +1,313 @@
+/* Mobile-specific optimizations for Resignation Letter Generator */
+
+/* Touch-friendly buttons */
+@media (max-width: 767px) {
+  button, .button, input[type="submit"] {
+    min-height: 44px;
+    min-width: 44px;
+    padding: 12px 16px;
+    font-size: 16px;
+    border-radius: 8px;
+    touch-action: manipulation;
+  }
+
+  /* Form inputs */
+  input, textarea, select {
+    min-height: 44px;
+    padding: 12px 16px;
+    font-size: 16px;
+    border-radius: 8px;
+    -webkit-appearance: none;
+    appearance: none;
+  }
+
+  /* Prevent zoom on input focus */
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  textarea {
+    font-size: 16px;
+  }
+
+  /* Mobile navigation improvements */
+  .nav {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .nav li {
+    width: 100%;
+  }
+
+  .nav a {
+    display: block;
+    padding: 12px 16px;
+    text-align: center;
+  }
+
+  /* Mobile-friendly cards */
+  .template-card {
+    margin-bottom: 16px;
+    padding: 20px 16px;
+  }
+
+  /* Responsive text sizes */
+  h1 {
+    font-size: 28px;
+    line-height: 1.2;
+  }
+
+  h2 {
+    font-size: 24px;
+    line-height: 1.3;
+  }
+
+  h3 {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+
+  /* Mobile spacing */
+  .section {
+    padding: 40px 0;
+  }
+
+  .container {
+    padding: 0 16px;
+  }
+
+  /* Mobile-friendly tables */
+  table {
+    font-size: 14px;
+  }
+
+  /* Sticky elements adjustments */
+  .sticky-element {
+    position: relative;
+    top: auto;
+  }
+
+  /* Mobile-friendly modals */
+  .modal {
+    margin: 16px;
+    max-height: calc(100vh - 32px);
+    overflow-y: auto;
+  }
+
+  /* Touch-friendly checkboxes and radios */
+  input[type="checkbox"],
+  input[type="radio"] {
+    min-width: 20px;
+    min-height: 20px;
+    margin: 8px;
+  }
+
+  /* Mobile-friendly progress indicators */
+  .progress-indicator {
+    bottom: 16px;
+    right: 16px;
+    left: 16px;
+    right: auto;
+    width: auto;
+  }
+
+  /* Floating action buttons */
+  .floating-button {
+    bottom: 16px;
+    left: 16px;
+    right: auto;
+    z-index: 1000;
+  }
+
+  /* Mobile-friendly hero sections */
+  .hero {
+    padding: 60px 0 40px;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+
+  .hero p {
+    font-size: 16px;
+    margin-bottom: 24px;
+  }
+
+  /* Mobile-friendly feature lists */
+  .feature-list {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .feature-item {
+    text-align: center;
+    padding: 16px;
+  }
+
+  /* Mobile-friendly FAQ */
+  .faq-item {
+    margin-bottom: 12px;
+  }
+
+  .faq-question {
+    padding: 16px;
+    font-size: 16px;
+  }
+
+  .faq-answer {
+    padding: 16px;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  /* Mobile-friendly download options */
+  .download-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .download-option {
+    padding: 20px 16px;
+    text-align: center;
+  }
+
+  /* Mobile-friendly form layouts */
+  .form-row {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .form-group {
+    width: 100%;
+  }
+
+  /* Mobile-friendly preview */
+  .letter-preview {
+    padding: 20px 16px;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  /* Mobile-friendly stats */
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  .stat-item {
+    padding: 16px;
+    text-align: center;
+  }
+
+  /* Mobile-friendly testimonials */
+  .testimonial-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .testimonial {
+    padding: 20px 16px;
+  }
+}
+
+/* Tablet-specific optimizations */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    padding: 0 24px;
+  }
+
+  .section {
+    padding: 60px 0;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+
+  .download-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .testimonial-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+/* High DPI displays */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .logo img {
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+  }
+}
+
+/* Landscape mobile orientation */
+@media (max-width: 767px) and (orientation: landscape) {
+  .hero {
+    padding: 40px 0 30px;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .section {
+    padding: 30px 0;
+  }
+}
+
+/* Dark mode support for mobile */
+@media (prefers-color-scheme: dark) and (max-width: 767px) {
+  body {
+    background-color: #1f2937;
+    color: #f9fafb;
+  }
+
+  .card, .template-card {
+    background-color: #374151;
+    border-color: #4b5563;
+  }
+
+  input, textarea {
+    background-color: #374151;
+    border-color: #4b5563;
+    color: #f9fafb;
+  }
+}
+
+/* Accessibility improvements for mobile */
+@media (max-width: 767px) {
+  /* Focus indicators */
+  button:focus,
+  input:focus,
+  textarea:focus,
+  select:focus {
+    outline: 2px solid #3b82f6;
+    outline-offset: 2px;
+  }
+
+  /* High contrast mode */
+  @media (prefers-contrast: high) {
+    button, .button {
+      border: 2px solid currentColor;
+    }
+
+    .card, .template-card {
+      border: 2px solid currentColor;
+    }
+  }
+
+  /* Reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
