@@ -14,7 +14,7 @@ const PrivacyPolicyPage: React.FC = () => {
             Last updated: July 21, 2025
           </p>
           <p>
-            Random Letter Generator ("us", "we", or "our") operates the Random Letter Generator website (the "Service").
+            Random Letter Template ("us", "we", or "our") operates the Random Letter Template website (the "Service").
           </p>
           <p>
             This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data. We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy.
@@ -22,13 +22,13 @@ const PrivacyPolicyPage: React.FC = () => {
 
           <h2 style={{ fontSize: '1.5rem', color: '#2c3e50', margin: '30px 0 15px' }}>Information Collection and Use</h2>
           <p>
-            We collect minimal information to provide and improve our Random Letter Generator Service to you. Our letter generation process happens entirely in your browser and does not require the transmission of any personal data to our servers.
+            We collect minimal information to provide and improve our Random Letter Template Service to you. Our letter generation process happens entirely in your browser and does not require the transmission of any personal data to our servers.
           </p>
 
           <h3 style={{ fontSize: '1.25rem', color: '#2c3e50', margin: '20px 0 10px' }}>Types of Data Collected</h3>
           <h4 style={{ fontSize: '1.1rem', color: '#2c3e50', margin: '15px 0 10px' }}>Usage Data</h4>
           <p>
-            We may collect information on how the Service is accessed and used ("Usage Data"). This Usage Data may include information such as your computer's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers and other diagnostic data. This information helps us understand how users interact with our random letter generator and improve its functionality.
+            We may collect information on how the Service is accessed and used ("Usage Data"). This Usage Data may include information such as your computer's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers and other diagnostic data. This information helps us understand how users interact with our random letter template and improve its functionality.
           </p>
           <h4 style={{ fontSize: '1.1rem', color: '#2c3e50', margin: '15px 0 10px' }}>Tracking & Cookies Data</h4>
           <p>
@@ -37,7 +37,7 @@ const PrivacyPolicyPage: React.FC = () => {
 
           <h2 style={{ fontSize: '1.5rem', color: '#2c3e50', margin: '30px 0 15px' }}>Use of Data</h2>
           <p>
-            Random Letter Generator uses the collected data for various purposes:
+            Random Letter Template uses the collected data for various purposes:
           </p>
           <ul style={{ marginLeft: '20px', lineHeight: '1.6' }}>
             <li>To provide and maintain the Service</li>
@@ -66,7 +66,7 @@ const PrivacyPolicyPage: React.FC = () => {
 
           <h2 style={{ fontSize: '1.5rem', color: '#2c3e50', margin: '30px 0 15px' }}>Contact Us</h2>
           <p>
-            If you have any questions about this Privacy Policy or our Random Letter Generator service, please contact us.
+            If you have any questions about this Privacy Policy or our Random Letter Template service, please contact us.
           </p>
           <p>
             dongshan1025@gmail.com

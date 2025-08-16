@@ -6,7 +6,7 @@ const Footer: React.FC = () => (
     <div className="container">
       <div className="row">
         <div className="col col-4">
-          <h3>Resignation Letter Generator</h3>
+          <h3>Resignation Letter Template</h3>
           <p>Create professional resignation letters with our easy-to-use templates. Choose from various scenarios, customize with your details, and download in multiple formats. Simple, fast, and free to use!</p>
         </div>
         <div className="col col-4">
@@ -27,7 +27,7 @@ const Footer: React.FC = () => (
         </div>
       </div>
       <div className="footer-bottom">
-        &copy; 2025 Resignation Letter Generator. All rights reserved.
+        &copy; 2025 Resignation Letter Template. All rights reserved.
       </div>
     </div>
   </footer>

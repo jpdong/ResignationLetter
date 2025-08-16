@@ -63,7 +63,7 @@ const ResignationLetterHero: React.FC = () => {
                 marginBottom: '24px',
                 textShadow: '0 2px 4px rgba(0,0,0,0.1)'
               }}>
-                Professional Resignation Letter Generator
+                Professional Resignation Letter Template
               </h1>
               
               <p style={{ 

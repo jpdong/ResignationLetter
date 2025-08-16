@@ -4,8 +4,8 @@ const StructuredData: React.FC = () => {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "WebApplication",
-    "name": "Resignation Letter Generator",
-    "description": "Create professional resignation letters instantly with our free generator. Choose from multiple templates, customize with your details, and download in various formats.",
+    "name": "Resignation Letter Template",
+    "description": "Create professional resignation letters instantly with our free templates. Choose from multiple templates, customize with your details, and download in various formats.",
     "url": "https://resignationletter.net/",
     "applicationCategory": "BusinessApplication",
     "operatingSystem": "Any",
@@ -25,11 +25,11 @@ const StructuredData: React.FC = () => {
     ],
     "author": {
       "@type": "Organization",
-      "name": "Resignation Letter Generator"
+      "name": "Resignation Letter Template"
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Resignation Letter Generator"
+      "name": "Resignation Letter Template"
     },
     "inLanguage": "en-US",
     "isAccessibleForFree": true,
@@ -103,7 +103,7 @@ const StructuredData: React.FC = () => {
     "tool": [
       {
         "@type": "HowToTool",
-        "name": "Resignation Letter Generator"
+        "name": "Resignation Letter Template"
       }
     ],
     "step": [
