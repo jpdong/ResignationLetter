@@ -15,9 +15,10 @@ const NavBar: React.FC = () => (
         <nav>
           <ul className="nav">
             <li><Link href="/">Home</Link></li>
-            <li><Link href="#templates">Templates</Link></li>
-            <li><Link href="#guide">Writing Guide</Link></li>
-            <li><Link href="#faq">FAQ</Link></li>
+            <li><Link href="/#templates">Templates</Link></li>
+            <li><Link href="/#guide">Writing Guide</Link></li>
+            <li><Link href="/blog">Blog</Link></li>
+            <li><Link href="/#faq">FAQ</Link></li>
             <li><Link href="/contact">Contact</Link></li>
           </ul>
         </nav>
@@ -48,9 +49,10 @@ const NavBar: React.FC = () => (
       </div>
       <ul>
         <li><Link href="/">Home</Link></li>
-        <li><Link href="#templates">Templates</Link></li>
-        <li><Link href="#guide">Writing Guide</Link></li>
-        <li><Link href="#faq">FAQ</Link></li>
+        <li><Link href="/#templates">Templates</Link></li>
+        <li><Link href="/#guide">Writing Guide</Link></li>
+        <li><Link href="/blog">Blog</Link></li>
+        <li><Link href="/#faq">FAQ</Link></li>
         <li><Link href="/contact">Contact</Link></li>
       </ul>
     </nav>

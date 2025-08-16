@@ -6,6 +6,21 @@ import Container from '../../src/components/layout/Container';
 export const metadata: Metadata = {
   title: 'Privacy Policy - Resignation Letter Template',
   description: 'Learn how we protect your privacy. Our resignation letter template processes all data locally on your device with no server storage.',
+  alternates: {
+    canonical: 'https://resignation-letter.net/privacy-policy',
+  },
+  openGraph: {
+    title: 'Privacy Policy - Resignation Letter Template',
+    description: 'Learn how we protect your privacy. Our resignation letter template processes all data locally on your device with no server storage.',
+    url: 'https://resignation-letter.net/privacy-policy',
+    siteName: 'Resignation Letter Templates',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'Privacy Policy - Resignation Letter Template',
+    description: 'Learn how we protect your privacy. Our resignation letter template processes all data locally on your device with no server storage.',
+  },
   robots: {
     index: true,
     follow: true,
