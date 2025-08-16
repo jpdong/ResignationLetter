@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { resignationTemplates, getTemplateById } from '../../../src/utils/letterTemplates';
 import { TEMPLATE_CATEGORIES } from '../../../src/types/resignation';
-import ResignationLetterPage from '../../../src/pages/ResignationLetterPage';
+import ResignationLetterPage from '../../../src/page-components/ResignationLetterPage';
 
 interface TemplatePageProps {
   params: Promise<{

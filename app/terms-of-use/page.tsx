@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import TermsOfUsePage from '../../src/pages/TermsOfUsePage';
+import TermsOfUsePage from '../../src/page-components/TermsOfUsePage';
 
 export const metadata: Metadata = {
   title: 'Terms of Use - Resignation Letter Template',

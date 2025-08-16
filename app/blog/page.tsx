@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import React from 'react';
-import { BlogPage } from '../../src/pages/BlogPage';
+import { BlogPage } from '../../src/page-components/BlogPage';
 
 export const metadata: Metadata = {
   title: 'Career Insights & Professional Development Blog | Resignation Letter Templates',

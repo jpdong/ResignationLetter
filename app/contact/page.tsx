@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import ContactUsPage from '../../src/pages/ContactUsPage';
+import ContactUsPage from '../../src/page-components/ContactUsPage';
 
 export const metadata: Metadata = {
   title: 'Contact Us - Resignation Letter Template',

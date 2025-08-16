@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import React from 'react';
-import { BlogPostPage } from '../../../src/pages/BlogPostPage';
+import { BlogPostPage } from '../../../src/page-components/BlogPostPage';
 import { getPostBySlug } from '../../../src/utils/blogServerUtils';
 
 interface BlogPostPageProps {

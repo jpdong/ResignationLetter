@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-import ResignationLetterPage from '../src/pages/ResignationLetterPage'
+import ResignationLetterPage from '../src/page-components/ResignationLetterPage'
 
 export const metadata: Metadata = {
   title: 'Free Professional Resignation Letter Templates | Easy to Customize',
