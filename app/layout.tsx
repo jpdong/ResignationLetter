@@ -2,12 +2,13 @@ import type { Metadata } from 'next'
 import './globals.css'
 import './tailwind.css'
 import './mobile.css'
+import './blog.css'
 import GoogleAnalytics from '../src/components/analytics/GoogleAnalytics'
 import CookieConsent from '../src/components/analytics/CookieConsent'
 
 export const metadata: Metadata = {
-  title: 'Resignation Letter Generator - Professional Templates & Examples',
-  description: 'Create professional resignation letters instantly with our free generator. Choose from 6+ templates, customize with your details, and download as PDF, Word, or text. No signup required.',
+  title: 'Resignation Letter Template - Professional Examples',
+  description: 'Create professional resignation letters instantly with our free template. Choose templates, customize with your details, and download as PDF, Word, or text.',
   icons: {
     icon: '/logo.png',
   },
@@ -17,16 +18,16 @@ export const metadata: Metadata = {
     },
   
   openGraph: {
-    title: 'Resignation Letter Generator - Professional Templates',
-    description: 'Create professional resignation letters instantly with our free generator. Choose from multiple templates and download in various formats.',
+    title: 'Resignation Letter Template - Professional Templates',
+    description: 'Create professional resignation letters instantly with our free template. Choose from multiple templates and download in various formats.',
     url: 'https://resignationletter.net/',
-    siteName: 'Resignation Letter Generator',
+    siteName: 'Resignation Letter Template',
     images: [
       {
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'Resignation Letter Generator - Professional Templates',
+        alt: 'Resignation Letter Template - Professional Templates',
       },
     ],
     locale: 'en_US',
@@ -35,8 +36,8 @@ export const metadata: Metadata = {
   
   twitter: {
     card: 'summary_large_image',
-    title: 'Resignation Letter Generator - Professional Templates',
-    description: 'Create professional resignation letters instantly with our free generator. Choose from multiple templates and download in various formats.',
+    title: 'Resignation Letter Template - Professional Templates',
+    description: 'Create professional resignation letters instantly with our free template. Choose from multiple templates and download in various formats.',
     images: ['/og-image.png'],
     creator: '@resignationgen',
   },

@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { resignationTemplates, getTemplateById } from '../../../src/utils/letterTemplates';
 import { TEMPLATE_CATEGORIES } from '../../../src/types/resignation';
-import ResignationLetterPage from '../../../src/pages/ResignationLetterPage';
+import ResignationLetterPage from '../../../src/page-components/ResignationLetterPage';
 
 interface TemplatePageProps {
   params: Promise<{
@@ -32,15 +32,24 @@ export async function generateMetadata({ params }: TemplatePageProps): Promise<M
   return {
     title: `${template.name} - Free Resignation Letter Template`,
     description: `${template.description} Download this professional ${categoryName.toLowerCase()} resignation letter template for free. Customize with your details and download as PDF, Word, or text.`,
-    keywords: `${template.name.toLowerCase()}, ${categoryName.toLowerCase()}, resignation letter template, ${template.category} resignation, professional resignation letter`,
     openGraph: {
       title: `${template.name} - Free Template`,
       description: template.description,
       url: `https://resignation-letter.net/templates/${templateId}`,
+      siteName: 'Resignation Letter Templates',
       type: 'article',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${template.name} - Free Template`,
+      description: template.description,
     },
     alternates: {
       canonical: `https://resignation-letter.net/templates/${templateId}`,
+    },
+    robots: {
+      index: true,
+      follow: true,
     },
   };
 }

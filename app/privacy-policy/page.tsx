@@ -4,8 +4,23 @@ import Footer from '../../src/components/elements/Footer';
 import Container from '../../src/components/layout/Container';
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy - Resignation Letter Generator',
-  description: 'Learn how we protect your privacy. Our resignation letter generator processes all data locally on your device with no server storage.',
+  title: 'Privacy Policy - Resignation Letter Template',
+  description: 'Learn how we protect your privacy. Our resignation letter template processes all data locally on your device with no server storage.',
+  alternates: {
+    canonical: 'https://resignation-letter.net/privacy-policy',
+  },
+  openGraph: {
+    title: 'Privacy Policy - Resignation Letter Template',
+    description: 'Learn how we protect your privacy. Our resignation letter template processes all data locally on your device with no server storage.',
+    url: 'https://resignation-letter.net/privacy-policy',
+    siteName: 'Resignation Letter Templates',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'Privacy Policy - Resignation Letter Template',
+    description: 'Learn how we protect your privacy. Our resignation letter template processes all data locally on your device with no server storage.',
+  },
   robots: {
     index: true,
     follow: true,
@@ -51,7 +66,7 @@ export default function PrivacyPolicyPage() {
                   Our Privacy Commitment
                 </h2>
                 <p style={{ marginBottom: '16px' }}>
-                  At Resignation Letter Generator, we are committed to protecting your privacy. This privacy policy 
+                  At Resignation Letter Template, we are committed to protecting your privacy. This privacy policy
                   explains how we handle your information when you use our resignation letter generation service.
                 </p>
                 <div style={{
@@ -76,7 +91,7 @@ export default function PrivacyPolicyPage() {
                   Information We Do NOT Collect
                 </h2>
                 <p style={{ marginBottom: '16px' }}>
-                  When you use our resignation letter generator, we do NOT collect:
+                  When you use our resignation letter template, we do NOT collect:
                 </p>
                 <ul style={{ paddingLeft: '20px', marginBottom: '16px' }}>
                   <li style={{ marginBottom: '8px' }}>Your name, position, or company information</li>
@@ -93,7 +108,7 @@ export default function PrivacyPolicyPage() {
                   How Our Service Works
                 </h2>
                 <p style={{ marginBottom: '16px' }}>
-                  Our resignation letter generator operates entirely within your web browser:
+                  Our resignation letter template operates entirely within your web browser:
                 </p>
                 <ol style={{ paddingLeft: '20px', marginBottom: '16px' }}>
                   <li style={{ marginBottom: '8px' }}>You select a template and fill out the form</li>

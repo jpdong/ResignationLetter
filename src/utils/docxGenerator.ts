@@ -29,7 +29,7 @@ export const generateDOCX = async (
     
     // Create document
     const doc = new Document({
-      creator: 'Resignation Letter Generator',
+      creator: 'Resignation Letter Template',
       title: 'Resignation Letter',
       description: 'Professional resignation letter',
       sections: [
@@ -85,7 +85,7 @@ export const generateDOCXBlob = async (
     
     // Create document
     const doc = new Document({
-      creator: 'Resignation Letter Generator',
+      creator: 'Resignation Letter Template',
       title: 'Resignation Letter',
       description: 'Professional resignation letter',
       sections: [

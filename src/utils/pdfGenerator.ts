@@ -40,7 +40,7 @@ export const generatePDF = async (
       title: 'Resignation Letter',
       subject: 'Professional Resignation Letter',
       author: letterData.employeeName || 'Employee',
-      creator: 'Resignation Letter Generator'
+      creator: 'Resignation Letter Template'
     });
 
     // Render the template with user data
@@ -107,7 +107,7 @@ export const generatePDFBlob = async (
       title: 'Resignation Letter',
       subject: 'Professional Resignation Letter',
       author: letterData.employeeName || 'Employee',
-      creator: 'Resignation Letter Generator'
+      creator: 'Resignation Letter Template'
     });
 
     // Render the template with user data

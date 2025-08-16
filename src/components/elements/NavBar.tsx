@@ -8,16 +8,17 @@ const NavBar: React.FC = () => (
     <header className="header">
       <div className="header-content">
         <Link href="/" className="logo">
-          <img src="/logo.png" alt="Resignation Letter Generator Logo" />
-          <span className="logo-text">Resignation Letter Generator</span>
+          <img src="/logo.png" alt="Resignation Letter Template Logo" />
+          <span className="logo-text">Resignation Letter Template</span>
         </Link>
 
         <nav>
           <ul className="nav">
             <li><Link href="/">Home</Link></li>
-            <li><Link href="#templates">Templates</Link></li>
-            <li><Link href="#guide">Writing Guide</Link></li>
-            <li><Link href="#faq">FAQ</Link></li>
+            <li><Link href="/#templates">Templates</Link></li>
+            <li><Link href="/#guide">Writing Guide</Link></li>
+            <li><Link href="/blog">Blog</Link></li>
+            <li><Link href="/#faq">FAQ</Link></li>
             <li><Link href="/contact">Contact</Link></li>
           </ul>
         </nav>
@@ -39,8 +40,8 @@ const NavBar: React.FC = () => (
     <nav className="mobile-nav">
       <div className="mobile-nav-header">
         <Link href="/" className="logo">
-          <img src="/logo.png" alt="Resignation Letter Generator Logo" width="32" height="32" />
-          <span className="logo-text">Resignation Letter Generator</span>
+          <img src="/logo.png" alt="Resignation Letter Template Logo" width="32" height="32" />
+          <span className="logo-text">Resignation Letter Template</span>
         </Link>
         <label htmlFor="mobile-menu-toggle" className="mobile-nav-close" aria-label="Close mobile menu">
           ×
@@ -48,9 +49,10 @@ const NavBar: React.FC = () => (
       </div>
       <ul>
         <li><Link href="/">Home</Link></li>
-        <li><Link href="#templates">Templates</Link></li>
-        <li><Link href="#guide">Writing Guide</Link></li>
-        <li><Link href="#faq">FAQ</Link></li>
+        <li><Link href="/#templates">Templates</Link></li>
+        <li><Link href="/#guide">Writing Guide</Link></li>
+        <li><Link href="/blog">Blog</Link></li>
+        <li><Link href="/#faq">FAQ</Link></li>
         <li><Link href="/contact">Contact</Link></li>
       </ul>
     </nav>
